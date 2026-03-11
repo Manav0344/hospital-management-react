@@ -1,16 +1,182 @@
-# React + Vite
+# 🏥 Hospital Management System (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Hospital Management System UI** built using **React, Vite, Tailwind CSS, and React Router**.
+This project demonstrates a clean healthcare dashboard where patients can **view doctors, book appointments, and manage their dashboard**.
 
-Currently, two official plugins are available:
+🔗 **Live Website:**
+https://manav0344.github.io/hospital-management-react/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+# 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🏠 **Home Page**
 
-## Expanding the ESLint configuration
+  * Hero section
+  * Hospital services overview
+  * Quick navigation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 👨‍⚕️ **Doctors Page**
+
+  * List of doctors
+  * Specializations
+  * Responsive doctor cards
+
+* 📅 **Appointment Booking**
+
+  * Form to book appointments
+  * Select doctor
+  * Choose date and time
+
+* 📊 **Patient Dashboard**
+
+  * View upcoming appointments
+  * Patient activity section
+  * Health information overview
+
+* 🌙 **Dark Mode Support**
+
+  * Toggle between light and dark theme
+  * Fully responsive design
+
+* 📱 **Responsive UI**
+
+  * Mobile friendly layout
+  * Clean healthcare interface
+
+---
+
+# 🛠️ Technologies Used
+
+* **React**
+* **Vite**
+* **Tailwind CSS**
+* **React Router**
+* **Lucide React Icons**
+
+---
+
+# 📂 Project Structure
+
+```
+hospital-system
+│
+├── public
+│   ├── vite.svg
+│   └── 404.html
+│
+├── src
+│   │
+│   ├── components
+│   │   ├── Navbar.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── pages
+│   │   ├── Home.jsx
+│   │   ├── Doctors.jsx
+│   │   ├── Appointment.jsx
+│   │   └── Dashboard.jsx
+│   │
+│   ├── context
+│   │   └── ThemeContext.jsx
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── vite.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+# 🚀 Installation & Setup
+
+Clone the repository:
+
+```
+git clone https://github.com/Manav0344/hospital-management-react.git
+```
+
+Go to project folder:
+
+```
+cd hospital-management-react
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run development server:
+
+```
+npm run dev
+```
+
+The project will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+# 🌐 Deployment
+
+This project is deployed using **GitHub Pages**.
+
+To deploy manually:
+
+```
+npm run build
+npm run deploy
+```
+
+Live site:
+
+```
+https://manav0344.github.io/hospital-management-react/
+```
+
+---
+
+# 🎨 UI Highlights
+
+* Modern hospital dashboard layout
+* Professional healthcare color scheme
+* Clean responsive design
+* Dark mode enabled
+* Tailwind utility styling
+
+---
+
+# 📚 Learning Purpose
+
+This project was built to practice:
+
+* React component architecture
+* React Router navigation
+* Dark mode implementation
+* Tailwind CSS styling
+* GitHub Pages deployment
+
+---
+
+# 👨‍💻 Author
+
+**Manav Solanki**
+
+📧 Email: [manavsolanki344@gmail.com](mailto:manavsolanki344@gmail.com)
+📱 Phone: +91 8905978910
+
+GitHub:
+https://github.com/Manav0344
+
+---
+
+# ⭐ Support
+
+If you like this project, please consider **starring the repository** on GitHub.
