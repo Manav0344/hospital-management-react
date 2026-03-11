@@ -1,5 +1,4 @@
-
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "./context/ThemeContext";
 
 import Navbar from "./components/Navbar";
@@ -16,10 +15,8 @@ function App() {
       <Router>
         <div className="min-h-screen flex flex-col">
 
-          {/* Navbar */}
           <Navbar />
 
-          {/* Main Content */}
           <main className="flex-grow">
             <Routes>
               <Route path="/" element={<Home />} />
@@ -29,7 +26,6 @@ function App() {
             </Routes>
           </main>
 
-          {/* Footer */}
           <Footer />
 
         </div>
@@ -39,4 +35,3 @@ function App() {
 }
 
 export default App;
-
